@@ -1,0 +1,4 @@
+std = "roblox+testez"
+
+[rules]
+multiple_statements = "allow" # Don't tell me how to live my life, Selene

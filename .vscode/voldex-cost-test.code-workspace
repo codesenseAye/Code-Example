@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+
+	//////////// Workspace Settings ////////////
+	
+	"settings": {
+		"editor.fontLigatures": true,
+		"editor.semanticHighlighting.enabled": true,
+		"editor.bracketPairColorization.enabled": true,
+		"editor.rulers": [100, 120],
+		"editor.tabSize": 4,
+
+		"robloxLsp.hint.paramName": true,
+		"robloxLsp.hint.returnType": true,
+		"robloxLsp.completion.workspaceWord": false,
+		"robloxLsp.hint.enable": true,
+
+		"robloxLsp.typeChecking.options": {
+
+		},
+
+		"robloxLsp.diagnostics.disable": [
+			
+		],
+
+		// If you don't like having a purple title bar or any of these other color overrides, comment these out.
+		"workbench.colorCustomizations": {
+			//Title Bar (Top "File Bar")
+			"titleBar.activeBackground": "#621A9850",
+			"titleBar.inactiveBackground": "#51424d",
+		},
+
+		//"rojo.releaseBranch": "6.x",
+	}
+}

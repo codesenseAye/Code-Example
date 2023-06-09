@@ -1,0 +1,133 @@
+/*
+	Snippets related to neat little separators and decoraters,
+	allowing you to organize your code better without losing time.
+*/
+
+{
+    /////// Comments ///////
+
+	"File Description [Comments]":{
+		"prefix": ["purpose", "desc"],
+		"body": [
+			"${BLOCK_COMMENT_START}File Purpose:",
+			"\t$0",
+			"${BLOCK_COMMENT_END}",
+			"",
+		],
+		"description": "Template for file purpose blurb"
+	},
+
+	/////// Separators ///////
+
+	"Separator [Comments]":{
+		"prefix": ["----"],
+		"body": ["----------------------------------------------------------------"],
+		"description": "A 64-charactor-long horizontal separator"
+	},
+
+	"Constants Comment [Comments]":{
+		"prefix": ["---const"],
+		"body": ["---------------------------Constants----------------------------"],
+		"description": ""
+	},
+
+	"Services Comment [Comments]":{
+		"prefix": ["---sv"],
+		"body": ["---------------------------Roblox Services----------------------------"],
+		"description": ""
+	},
+
+	"Knit Controller Comment [Comments]":{
+		"prefix": ["---knc"],
+		"body": ["---------------------------Knit Controller----------------------------"],
+		"description": ""
+	},
+
+	"Knit Service Comment [Comments]":{
+		"prefix": ["---kns"],
+		"body": ["---------------------------Knit Service----------------------------"],
+		"description": ""
+	},
+
+	"Fields Comment [Comments]":{
+		"prefix": ["---fd"],
+		"body": ["----------------------------Fields------------------------------"],
+		"description": ""
+	},
+
+	"Types Comment [Comments]":{
+		"prefix": ["---ty"],
+		"body": ["----------------------------Types------------------------------"],
+		"description": ""
+	},
+
+	"Knit Comment [Comments]":{
+		"prefix": ["---kn"],
+		"body": ["----------------------------Knit------------------------------"],
+		"description": ""
+	},
+
+	"Dependencies Comment [Comments]":{
+		"prefix": ["---dep"],
+		"body": ["----------------------------Service/Controller Dependencies------------------------------"],
+		"description": ""
+	},
+
+	"Util Comment [Comments]":{
+		"prefix": ["---ut"],
+		"body": ["----------------------------Util------------------------------"],
+		"description": ""
+	},
+
+	"Local Functions Comment [Comments]":{
+		"prefix": ["--lf"],
+		"body": ["------------------------Local Functions-------------------------"],
+		"description": ""
+	},
+
+	"Client Methods Comment [Comments]":{
+		"prefix": ["---cm"],
+		"body": ["----------------------------Client Methods------------------------------"],
+		"description": ""
+	},
+
+	"Public Functions Comment [Comments]":{
+		"prefix": ["--pm"],
+		"body": ["------------------------Public Methods------------------------"],
+		"description": ""
+	},
+
+	"Private Functions Comment [Comments]":{
+		"prefix": ["--ppm"],
+		"body": ["-----------------------Private Methods------------------------"],
+		"description": ""
+	},
+
+	"Lifetime Methods Comment [Comments]":{
+		"prefix": ["--lm"],
+		"body": ["------------------------Lifetime Methods------------------------"],
+		"description": ""
+	},
+
+	/////// Regions ///////
+
+	"New Region (Surround) [Comments]":{
+		"prefix": ["nreg (New #region)"],
+		"body": [
+			"${LINE_COMMENT}#region",
+			"${TM_SELECTED_TEXT}",
+			"${LINE_COMMENT}#endregion"
+		],
+		"description": ""
+	},
+
+	"New Named Region (Surround) [Comments]":{
+		"prefix": ["nnreg (New Named #region)"],
+		"body": [
+			"${LINE_COMMENT}#region $1",
+			"$0${TM_SELECTED_TEXT}",
+			"${LINE_COMMENT}#endregion $1"
+		],
+		"description": ""
+	},
+}

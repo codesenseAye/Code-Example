@@ -1,0 +1,23 @@
+[package]
+name = "danielw"
+version = "0.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Knit = "sleitnick/knit@^1"
+Trove = "sleitnick/trove@0.5.0"
+Signal = "sleitnick/signal@1.3.0"
+Shake = "sleitnick/shake@0.1.2"
+Component = "sleitnick/component@2.4.0"
+Input = "sleitnick/input@1.3.0"
+Loader = "sleitnick/loader@1.0.2"
+TaskQueue = "sleitnick/task-queue@0.1.0"
+TableUtil = "sleitnick/table-util@1.2.0"
+Timer = "sleitnick/timer@1.1.2"
+PID = "sleitnick/pid@1.0.1"
+Option = "sleitnick/option@1.0.3"
+Comm = "sleitnick/comm@0.2.2"
+Dumpster = "kinqandi/dumpster@0.3.1"
+Promise = "evaera/promise@4.0.0"
+Fusion = "elttob/fusion@^0"

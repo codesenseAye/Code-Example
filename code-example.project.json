@@ -1,0 +1,90 @@
+{
+    "name": "Code Example",
+    "tree": {
+        "$className": "DataModel",
+
+        "ReplicatedStorage": {
+            "$className": "ReplicatedStorage",
+
+            "Packages": {
+                "$path": "Packages"
+            },
+
+            "Shared": {
+                "$className": "Folder",
+                "Data": {
+                    "$path": "src/Project/Shared/Data"
+                },
+                "Types": {
+                    "$path": "src/Project/Shared/Types.lua"
+                }
+            },
+
+            "TestEZ": {
+                "$path": "TestEZ"
+            },
+
+            "MadworkMaid": {
+                "$path": "src/Project/Shared/Modules/MadworkMaid.lua"
+            },
+
+            "MadworkScriptSignal": {
+                "$path": "src/Project/Shared/Modules/MadworkScriptSignal.lua"
+            },
+
+            "RateLimiter": {
+                "$path": "src/Project/Shared/Modules/RateLimiter.lua"
+            },
+
+            "ReplicaController": {
+                "$path": "src/Project/Shared/Modules/ReplicaController.lua"
+            }
+        },
+
+        "ServerScriptService": {
+            "$className": "ServerScriptService",
+
+            "Knit": {
+                "$className": "Folder",
+                "KnitExecution": {
+                    "$path": "src/Project/Server/KnitExecution.server.lua"
+                },
+                
+                "Services": {
+                    "$path": "src/Project/Server/Services"
+                }
+            },
+
+            "ReplicaService": {
+                "$path": "src/Project/Server/ReplicaService.lua"
+            }
+        },
+
+        "StarterPlayer": {
+            "$className": "StarterPlayer",
+            "StarterPlayerScripts": {
+                "$className": "StarterPlayerScripts",
+                "Knit": {
+                    "$className": "Folder",
+                    "Controllers": {
+                        "$path": "src/Project/Client/Controllers"
+                    },
+                    "KnitExecution": {
+                        "$path": "src/Project/Client/KnitExecution.client.lua"
+                    }
+                }
+            }
+        },
+
+        "ServerStorage": {
+            "$className": "ServerStorage",
+            "Modules": {
+                "$path": "src/Project/Server/Modules"
+            }
+        },
+
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst"
+        }
+    }
+}

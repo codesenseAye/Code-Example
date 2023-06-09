@@ -1,0 +1,6 @@
+# https://marketplace.visualstudio.com/items?itemName=tacheometrist.testez-companion
+# These are the locations of your .spec files (descendants are searched too)
+roots = ["ReplicatedStorage/TestEZ"]
+
+[extraOptions]
+# Optionally, an extraOptions table can be passed to TestBootstrap
